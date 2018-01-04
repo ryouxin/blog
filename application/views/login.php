@@ -1,3 +1,6 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,11 +10,11 @@
   <meta name="author" content="sweetChen️">
   <meta name="keywords" content="sweetChen 网站 个人博客">
 	<title>sweetChen</title>
-	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="shortcut icon" type="/img/x-icon" href="favicon.ico">
+	<link rel="icon" type="/img/x-icon" href="favicon.ico">
 	<link href="https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css" rel="stylesheet">
-	<link href="static/css/login.css" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<link href="/css/login.css" rel="stylesheet">
+	<script src="/js/jquery-3.2.1.min.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -31,6 +34,6 @@
 		</div>
 	</div>
 	<canvas></canvas>
-	<script src="static/js/particleBg.js"></script>
+	<script src="/js/particleBg.js"></script>
 </body>
 </html>
