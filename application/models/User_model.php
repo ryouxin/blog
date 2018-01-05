@@ -1,6 +1,6 @@
 <?php
 
-class Admin_model extends MY_Model
+class User_model extends MY_Model
 {
     public function __construct()
     {
@@ -9,5 +9,5 @@ class Admin_model extends MY_Model
         $this->load->driver('cache', array('adapter' => 'file'));
     }
     public $ADMIN_SALT = 'iiiiii';
-		
+
 }
