@@ -61,6 +61,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 					user.userInfo=response.d.userInfo.user_info;
 					user.userStage=response.d.userInfo.user_stage;
 					console.log(user);
+					window.location.href=response.d.user_first_page;
 				}else{
 					alert(response.m);
 				}

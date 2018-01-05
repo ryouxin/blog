@@ -35,6 +35,7 @@ class User_login extends CI_Controller
         }
     }
 	public function user_first_page(){
+		$this->load->view('user/userHomePage');
 
 	}
 }
